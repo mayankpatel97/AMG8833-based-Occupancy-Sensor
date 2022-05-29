@@ -1,0 +1,842 @@
+Dependencies for Project 'Occupancy', Target 'Occupancy Configuration': (DO NOT MODIFY !)
+F (../Drivers/CMSIS/Device/ST/STM32F3xx/Source/Templates/system_stm32f3xx.c)(0x5755824F)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include --C99-I D:\PROJECTS\STM32F303\Occupancy_Sensor_Panasonic+GUI\Occupancy\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o "occupancy configuration\system_stm32f3xx.o" --omf_browse "occupancy configuration\system_stm32f3xx.crf" --depend "occupancy configuration\system_stm32f3xx.d")
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h)(0x5755824D)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f303xe.h)(0x5755824D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x5755829A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE6606)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5755829A)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5755829A)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x5755829A)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h)(0x5755824D)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5755829D)
+I (../Inc/stm32f3xx_hal_conf.h)(0x59CDF1FE)
+I (../Inc/mxconstants.h)(0x59CDF1FF)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5755829D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE6606)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_cortex.h)(0x5755829D)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_iwdg.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5755829F)
+F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c)(0x575582A1)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include --C99-I D:\PROJECTS\STM32F303\Occupancy_Sensor_Panasonic+GUI\Occupancy\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o "occupancy configuration\stm32f3xx_hal_i2c.o" --omf_browse "occupancy configuration\stm32f3xx_hal_i2c.crf" --depend "occupancy configuration\stm32f3xx_hal_i2c.d")
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5755829D)
+I (../Inc/stm32f3xx_hal_conf.h)(0x59CDF1FE)
+I (../Inc/mxconstants.h)(0x59CDF1FF)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h)(0x5755829E)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h)(0x5755824D)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f303xe.h)(0x5755824D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x5755829A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE6606)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5755829A)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5755829A)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x5755829A)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h)(0x5755824D)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5755829D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE6606)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_cortex.h)(0x5755829D)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_iwdg.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5755829F)
+F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c)(0x575582A1)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include --C99-I D:\PROJECTS\STM32F303\Occupancy_Sensor_Panasonic+GUI\Occupancy\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o "occupancy configuration\stm32f3xx_hal_flash_ex.o" --omf_browse "occupancy configuration\stm32f3xx_hal_flash_ex.crf" --depend "occupancy configuration\stm32f3xx_hal_flash_ex.d")
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5755829D)
+I (../Inc/stm32f3xx_hal_conf.h)(0x59CDF1FE)
+I (../Inc/mxconstants.h)(0x59CDF1FF)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h)(0x5755829E)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h)(0x5755824D)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f303xe.h)(0x5755824D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x5755829A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE6606)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5755829A)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5755829A)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x5755829A)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h)(0x5755824D)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5755829D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE6606)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_cortex.h)(0x5755829D)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_iwdg.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5755829F)
+F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c)(0x575582A2)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include --C99-I D:\PROJECTS\STM32F303\Occupancy_Sensor_Panasonic+GUI\Occupancy\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o "occupancy configuration\stm32f3xx_hal_tim.o" --omf_browse "occupancy configuration\stm32f3xx_hal_tim.crf" --depend "occupancy configuration\stm32f3xx_hal_tim.d")
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5755829D)
+I (../Inc/stm32f3xx_hal_conf.h)(0x59CDF1FE)
+I (../Inc/mxconstants.h)(0x59CDF1FF)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h)(0x5755829E)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h)(0x5755824D)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f303xe.h)(0x5755824D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x5755829A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE6606)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5755829A)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5755829A)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x5755829A)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h)(0x5755824D)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5755829D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE6606)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_cortex.h)(0x5755829D)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_iwdg.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5755829F)
+F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c)(0x575582A2)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include --C99-I D:\PROJECTS\STM32F303\Occupancy_Sensor_Panasonic+GUI\Occupancy\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o "occupancy configuration\stm32f3xx_hal_tim_ex.o" --omf_browse "occupancy configuration\stm32f3xx_hal_tim_ex.crf" --depend "occupancy configuration\stm32f3xx_hal_tim_ex.d")
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5755829D)
+I (../Inc/stm32f3xx_hal_conf.h)(0x59CDF1FE)
+I (../Inc/mxconstants.h)(0x59CDF1FF)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h)(0x5755829E)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h)(0x5755824D)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f303xe.h)(0x5755824D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x5755829A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE6606)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5755829A)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5755829A)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x5755829A)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h)(0x5755824D)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5755829D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE6606)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_cortex.h)(0x5755829D)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_iwdg.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5755829F)
+F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c)(0x575582A1)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include --C99-I D:\PROJECTS\STM32F303\Occupancy_Sensor_Panasonic+GUI\Occupancy\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o "occupancy configuration\stm32f3xx_hal_flash.o" --omf_browse "occupancy configuration\stm32f3xx_hal_flash.crf" --depend "occupancy configuration\stm32f3xx_hal_flash.d")
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5755829D)
+I (../Inc/stm32f3xx_hal_conf.h)(0x59CDF1FE)
+I (../Inc/mxconstants.h)(0x59CDF1FF)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h)(0x5755829E)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h)(0x5755824D)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f303xe.h)(0x5755824D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x5755829A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE6606)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5755829A)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5755829A)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x5755829A)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h)(0x5755824D)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5755829D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE6606)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_cortex.h)(0x5755829D)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_iwdg.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5755829F)
+F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c)(0x575582A2)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include --C99-I D:\PROJECTS\STM32F303\Occupancy_Sensor_Panasonic+GUI\Occupancy\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o "occupancy configuration\stm32f3xx_hal_rcc.o" --omf_browse "occupancy configuration\stm32f3xx_hal_rcc.crf" --depend "occupancy configuration\stm32f3xx_hal_rcc.d")
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5755829D)
+I (../Inc/stm32f3xx_hal_conf.h)(0x59CDF1FE)
+I (../Inc/mxconstants.h)(0x59CDF1FF)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h)(0x5755829E)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h)(0x5755824D)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f303xe.h)(0x5755824D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x5755829A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE6606)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5755829A)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5755829A)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x5755829A)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h)(0x5755824D)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5755829D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE6606)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_cortex.h)(0x5755829D)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_iwdg.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5755829F)
+F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c)(0x575582A1)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include --C99-I D:\PROJECTS\STM32F303\Occupancy_Sensor_Panasonic+GUI\Occupancy\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o "occupancy configuration\stm32f3xx_hal_gpio.o" --omf_browse "occupancy configuration\stm32f3xx_hal_gpio.crf" --depend "occupancy configuration\stm32f3xx_hal_gpio.d")
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5755829D)
+I (../Inc/stm32f3xx_hal_conf.h)(0x59CDF1FE)
+I (../Inc/mxconstants.h)(0x59CDF1FF)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h)(0x5755829E)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h)(0x5755824D)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f303xe.h)(0x5755824D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x5755829A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE6606)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5755829A)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5755829A)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x5755829A)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h)(0x5755824D)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5755829D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE6606)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_cortex.h)(0x5755829D)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_iwdg.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5755829F)
+F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c)(0x5755829F)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include --C99-I D:\PROJECTS\STM32F303\Occupancy_Sensor_Panasonic+GUI\Occupancy\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o "occupancy configuration\stm32f3xx_hal.o" --omf_browse "occupancy configuration\stm32f3xx_hal.crf" --depend "occupancy configuration\stm32f3xx_hal.d")
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5755829D)
+I (../Inc/stm32f3xx_hal_conf.h)(0x59CDF1FE)
+I (../Inc/mxconstants.h)(0x59CDF1FF)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h)(0x5755829E)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h)(0x5755824D)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f303xe.h)(0x5755824D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x5755829A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE6606)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5755829A)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5755829A)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x5755829A)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h)(0x5755824D)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5755829D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE6606)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_cortex.h)(0x5755829D)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_iwdg.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5755829F)
+F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c)(0x575582A1)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include --C99-I D:\PROJECTS\STM32F303\Occupancy_Sensor_Panasonic+GUI\Occupancy\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o "occupancy configuration\stm32f3xx_hal_i2c_ex.o" --omf_browse "occupancy configuration\stm32f3xx_hal_i2c_ex.crf" --depend "occupancy configuration\stm32f3xx_hal_i2c_ex.d")
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5755829D)
+I (../Inc/stm32f3xx_hal_conf.h)(0x59CDF1FE)
+I (../Inc/mxconstants.h)(0x59CDF1FF)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h)(0x5755829E)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h)(0x5755824D)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f303xe.h)(0x5755824D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x5755829A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE6606)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5755829A)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5755829A)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x5755829A)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h)(0x5755824D)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5755829D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE6606)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_cortex.h)(0x5755829D)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_iwdg.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5755829F)
+F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c)(0x575582A2)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include --C99-I D:\PROJECTS\STM32F303\Occupancy_Sensor_Panasonic+GUI\Occupancy\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o "occupancy configuration\stm32f3xx_hal_pwr_ex.o" --omf_browse "occupancy configuration\stm32f3xx_hal_pwr_ex.crf" --depend "occupancy configuration\stm32f3xx_hal_pwr_ex.d")
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5755829D)
+I (../Inc/stm32f3xx_hal_conf.h)(0x59CDF1FE)
+I (../Inc/mxconstants.h)(0x59CDF1FF)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h)(0x5755829E)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h)(0x5755824D)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f303xe.h)(0x5755824D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x5755829A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE6606)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5755829A)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5755829A)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x5755829A)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h)(0x5755824D)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5755829D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE6606)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_cortex.h)(0x5755829D)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_iwdg.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5755829F)
+F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c)(0x575582A2)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include --C99-I D:\PROJECTS\STM32F303\Occupancy_Sensor_Panasonic+GUI\Occupancy\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o "occupancy configuration\stm32f3xx_hal_uart_ex.o" --omf_browse "occupancy configuration\stm32f3xx_hal_uart_ex.crf" --depend "occupancy configuration\stm32f3xx_hal_uart_ex.d")
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5755829D)
+I (../Inc/stm32f3xx_hal_conf.h)(0x59CDF1FE)
+I (../Inc/mxconstants.h)(0x59CDF1FF)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h)(0x5755829E)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h)(0x5755824D)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f303xe.h)(0x5755824D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x5755829A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE6606)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5755829A)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5755829A)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x5755829A)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h)(0x5755824D)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5755829D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE6606)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_cortex.h)(0x5755829D)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_iwdg.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5755829F)
+F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c)(0x575582A2)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include --C99-I D:\PROJECTS\STM32F303\Occupancy_Sensor_Panasonic+GUI\Occupancy\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o "occupancy configuration\stm32f3xx_hal_rcc_ex.o" --omf_browse "occupancy configuration\stm32f3xx_hal_rcc_ex.crf" --depend "occupancy configuration\stm32f3xx_hal_rcc_ex.d")
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5755829D)
+I (../Inc/stm32f3xx_hal_conf.h)(0x59CDF1FE)
+I (../Inc/mxconstants.h)(0x59CDF1FF)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h)(0x5755829E)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h)(0x5755824D)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f303xe.h)(0x5755824D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x5755829A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE6606)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5755829A)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5755829A)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x5755829A)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h)(0x5755824D)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5755829D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE6606)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_cortex.h)(0x5755829D)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_iwdg.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5755829F)
+F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c)(0x59CDF461)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include --C99-I D:\PROJECTS\STM32F303\Occupancy_Sensor_Panasonic+GUI\Occupancy\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o "occupancy configuration\stm32f3xx_hal_uart.o" --omf_browse "occupancy configuration\stm32f3xx_hal_uart.crf" --depend "occupancy configuration\stm32f3xx_hal_uart.d")
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5755829D)
+I (../Inc/stm32f3xx_hal_conf.h)(0x59CDF1FE)
+I (../Inc/mxconstants.h)(0x59CDF1FF)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h)(0x5755829E)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h)(0x5755824D)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f303xe.h)(0x5755824D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x5755829A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE6606)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5755829A)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5755829A)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x5755829A)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h)(0x5755824D)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5755829D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE6606)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_cortex.h)(0x5755829D)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_iwdg.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Src/..\..\..\src\defs.h)(0x59CDF58C)
+I (../Drivers/STM32F3xx_HAL_Driver/Src/..\..\..\src\var_extern.h)(0x59CDF56A)
+F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c)(0x575582A1)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include --C99-I D:\PROJECTS\STM32F303\Occupancy_Sensor_Panasonic+GUI\Occupancy\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o "occupancy configuration\stm32f3xx_hal_cortex.o" --omf_browse "occupancy configuration\stm32f3xx_hal_cortex.crf" --depend "occupancy configuration\stm32f3xx_hal_cortex.d")
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5755829D)
+I (../Inc/stm32f3xx_hal_conf.h)(0x59CDF1FE)
+I (../Inc/mxconstants.h)(0x59CDF1FF)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h)(0x5755829E)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h)(0x5755824D)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f303xe.h)(0x5755824D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x5755829A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE6606)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5755829A)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5755829A)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x5755829A)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h)(0x5755824D)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5755829D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE6606)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_cortex.h)(0x5755829D)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_iwdg.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5755829F)
+F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_iwdg.c)(0x575582A1)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include --C99-I D:\PROJECTS\STM32F303\Occupancy_Sensor_Panasonic+GUI\Occupancy\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o "occupancy configuration\stm32f3xx_hal_iwdg.o" --omf_browse "occupancy configuration\stm32f3xx_hal_iwdg.crf" --depend "occupancy configuration\stm32f3xx_hal_iwdg.d")
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5755829D)
+I (../Inc/stm32f3xx_hal_conf.h)(0x59CDF1FE)
+I (../Inc/mxconstants.h)(0x59CDF1FF)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h)(0x5755829E)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h)(0x5755824D)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f303xe.h)(0x5755824D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x5755829A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE6606)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5755829A)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5755829A)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x5755829A)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h)(0x5755824D)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5755829D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE6606)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_cortex.h)(0x5755829D)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_iwdg.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5755829F)
+F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c)(0x575582A1)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include --C99-I D:\PROJECTS\STM32F303\Occupancy_Sensor_Panasonic+GUI\Occupancy\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o "occupancy configuration\stm32f3xx_hal_dma.o" --omf_browse "occupancy configuration\stm32f3xx_hal_dma.crf" --depend "occupancy configuration\stm32f3xx_hal_dma.d")
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5755829D)
+I (../Inc/stm32f3xx_hal_conf.h)(0x59CDF1FE)
+I (../Inc/mxconstants.h)(0x59CDF1FF)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h)(0x5755829E)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h)(0x5755824D)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f303xe.h)(0x5755824D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x5755829A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE6606)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5755829A)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5755829A)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x5755829A)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h)(0x5755824D)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5755829D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE6606)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_cortex.h)(0x5755829D)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_iwdg.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5755829F)
+F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c)(0x575582A1)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include --C99-I D:\PROJECTS\STM32F303\Occupancy_Sensor_Panasonic+GUI\Occupancy\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o "occupancy configuration\stm32f3xx_hal_pwr.o" --omf_browse "occupancy configuration\stm32f3xx_hal_pwr.crf" --depend "occupancy configuration\stm32f3xx_hal_pwr.d")
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5755829D)
+I (../Inc/stm32f3xx_hal_conf.h)(0x59CDF1FE)
+I (../Inc/mxconstants.h)(0x59CDF1FF)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h)(0x5755829E)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h)(0x5755824D)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f303xe.h)(0x5755824D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x5755829A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE6606)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5755829A)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5755829A)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x5755829A)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h)(0x5755824D)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5755829D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE6606)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_cortex.h)(0x5755829D)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_iwdg.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5755829F)
+F (../Src/main.c)(0x59DDC540)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include --C99-I D:\PROJECTS\STM32F303\Occupancy_Sensor_Panasonic+GUI\Occupancy\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o "occupancy configuration\main.o" --omf_browse "occupancy configuration\main.crf" --depend "occupancy configuration\main.d")
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5755829D)
+I (../Inc/stm32f3xx_hal_conf.h)(0x59CDF1FE)
+I (../Inc/mxconstants.h)(0x59CDF1FF)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h)(0x5755829E)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h)(0x5755824D)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f303xe.h)(0x5755824D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x5755829A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE6606)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5755829A)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5755829A)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x5755829A)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h)(0x5755824D)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5755829D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE6606)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_cortex.h)(0x5755829D)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_iwdg.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5755829F)
+I (../Src/var.h)(0x59CDF561)
+I (../Src/defs.h)(0x59CDF58C)
+F (../Src/stm32f3xx_hal_msp.c)(0x59CDF1FE)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include --C99-I D:\PROJECTS\STM32F303\Occupancy_Sensor_Panasonic+GUI\Occupancy\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o "occupancy configuration\stm32f3xx_hal_msp.o" --omf_browse "occupancy configuration\stm32f3xx_hal_msp.crf" --depend "occupancy configuration\stm32f3xx_hal_msp.d")
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5755829D)
+I (../Inc/stm32f3xx_hal_conf.h)(0x59CDF1FE)
+I (../Inc/mxconstants.h)(0x59CDF1FF)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h)(0x5755829E)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h)(0x5755824D)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f303xe.h)(0x5755824D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x5755829A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE6606)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5755829A)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5755829A)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x5755829A)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h)(0x5755824D)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5755829D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE6606)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_cortex.h)(0x5755829D)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_iwdg.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5755829F)
+F (../Src/stm32f3xx_it.c)(0x59CDF23C)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include --C99-I D:\PROJECTS\STM32F303\Occupancy_Sensor_Panasonic+GUI\Occupancy\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o "occupancy configuration\stm32f3xx_it.o" --omf_browse "occupancy configuration\stm32f3xx_it.crf" --depend "occupancy configuration\stm32f3xx_it.d")
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5755829D)
+I (../Inc/stm32f3xx_hal_conf.h)(0x59CDF1FE)
+I (../Inc/mxconstants.h)(0x59CDF1FF)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h)(0x5755829E)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h)(0x5755824D)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f303xe.h)(0x5755824D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x5755829A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE6606)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5755829A)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5755829A)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x5755829A)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h)(0x5755824D)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5755829D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE6606)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_cortex.h)(0x5755829D)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_iwdg.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5755829F)
+I (../Inc/stm32f3xx_it.h)(0x59CDF1FE)
+I (../Src/var_extern.h)(0x59CDF56A)
+I (../Src/defs.h)(0x59CDF58C)
+F (..\Src\Timer.c)(0x59AE93B6)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include --C99-I D:\PROJECTS\STM32F303\Occupancy_Sensor_Panasonic+GUI\Occupancy\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o "occupancy configuration\timer.o" --omf_browse "occupancy configuration\timer.crf" --depend "occupancy configuration\timer.d")
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5755829D)
+I (../Inc/stm32f3xx_hal_conf.h)(0x59CDF1FE)
+I (../Inc/mxconstants.h)(0x59CDF1FF)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h)(0x5755829E)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h)(0x5755824D)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f303xe.h)(0x5755824D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x5755829A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE6606)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5755829A)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5755829A)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x5755829A)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h)(0x5755824D)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5755829D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE6606)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_cortex.h)(0x5755829D)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_iwdg.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5755829F)
+I (..\Src\var_extern.h)(0x59CDF56A)
+I (..\Src\defs.h)(0x59CDF58C)
+F (..\Src\Uart.c)(0x59CDF9E8)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include --C99-I D:\PROJECTS\STM32F303\Occupancy_Sensor_Panasonic+GUI\Occupancy\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o "occupancy configuration\uart.o" --omf_browse "occupancy configuration\uart.crf" --depend "occupancy configuration\uart.d")
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5755829D)
+I (../Inc/stm32f3xx_hal_conf.h)(0x59CDF1FE)
+I (../Inc/mxconstants.h)(0x59CDF1FF)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h)(0x5755829E)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h)(0x5755824D)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f303xe.h)(0x5755824D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x5755829A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE6606)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5755829A)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5755829A)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x5755829A)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h)(0x5755824D)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5755829D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE6606)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_cortex.h)(0x5755829D)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_iwdg.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5755829F)
+I (..\Src\var_extern.h)(0x59CDF56A)
+I (..\Src\defs.h)(0x59CDF58C)
+F (..\Src\AMG8834.c)(0x59DDFD64)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include --C99-I D:\PROJECTS\STM32F303\Occupancy_Sensor_Panasonic+GUI\Occupancy\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o "occupancy configuration\amg8834.o" --omf_browse "occupancy configuration\amg8834.crf" --depend "occupancy configuration\amg8834.d")
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5755829D)
+I (../Inc/stm32f3xx_hal_conf.h)(0x59CDF1FE)
+I (../Inc/mxconstants.h)(0x59CDF1FF)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h)(0x5755829E)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h)(0x5755824D)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f303xe.h)(0x5755824D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x5755829A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE6606)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5755829A)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5755829A)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x5755829A)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h)(0x5755824D)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5755829D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE6606)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_cortex.h)(0x5755829D)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_iwdg.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5755829F)
+I (..\Src\var_extern.h)(0x59CDF56A)
+I (..\Src\defs.h)(0x59CDF58C)
+F (..\Src\GUI_comm.c)(0x59CE085F)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include --C99-I D:\PROJECTS\STM32F303\Occupancy_Sensor_Panasonic+GUI\Occupancy\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o "occupancy configuration\gui_comm.o" --omf_browse "occupancy configuration\gui_comm.crf" --depend "occupancy configuration\gui_comm.d")
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5755829D)
+I (../Inc/stm32f3xx_hal_conf.h)(0x59CDF1FE)
+I (../Inc/mxconstants.h)(0x59CDF1FF)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h)(0x5755829E)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h)(0x5755824D)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f303xe.h)(0x5755824D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x5755829A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE6606)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5755829A)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5755829A)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x5755829A)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h)(0x5755824D)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5755829D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE6606)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_cortex.h)(0x5755829D)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_iwdg.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr_ex.h)(0x5755829E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5755829F)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5755829F)
+I (..\Src\var_extern.h)(0x59CDF56A)
+I (..\Src\defs.h)(0x59CDF58C)
+F (../Drivers/CMSIS/Device/ST/STM32F3xx/Source/Templates/arm/startup_stm32f303xe.s)(0x5755824D)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I D:\PROJECTS\STM32F303\Occupancy_Sensor_Panasonic+GUI\Occupancy\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include--pd "__UVISION_VERSION SETA 520" --pd "_RTE_ SETA 1" --pd "STM32F303xE SETA 1"--list startup_stm32f303xe.lst --xref -o "occupancy configuration\startup_stm32f303xe.o" --depend "occupancy configuration\startup_stm32f303xe.d")
